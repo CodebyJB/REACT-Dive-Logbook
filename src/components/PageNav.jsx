@@ -1,12 +1,20 @@
 import { NavLink } from "react-router-dom";
+import styles from "./PageNav.module.css";
+import Logo from "./Logo";
 
 function PageNav() {
   return (
-    <div>
+    <div className={styles.pageNav}>
       PageNav
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/gallery">Gallery</NavLink>
-      <NavLink to="/logbook">Logbook</NavLink>
+      <Logo />
+      <ul>
+        <li>
+          <NavLink to="/gallery">Gallery</NavLink>
+        </li>
+        <li>
+          <NavLink to="/logbook">Logbook</NavLink>
+        </li>
+      </ul>
     </div>
   );
 }

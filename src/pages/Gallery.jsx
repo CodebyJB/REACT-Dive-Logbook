@@ -1,12 +1,14 @@
-import PageNav from "../components/PageNav"
+import Footer from "../components/Footer";
+import PageNav from "../components/PageNav";
 
 function Gallery() {
-    return (
-        <div>
-           <PageNav /> 
-            Gallery
-        </div>
-    )
+  return (
+    <div>
+      <PageNav />
+      Gallery
+      <Footer />
+    </div>
+  );
 }
 
-export default Gallery
+export default Gallery;

@@ -1,0 +1,9 @@
+function Footer() {
+  return (
+    <footer>
+      <p>&copy; Copyright {new Date().getFullYear()} by Underwater Memories</p>
+    </footer>
+  );
+}
+
+export default Footer;

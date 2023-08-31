@@ -1,3 +1,29 @@
+/* belleza-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Belleza";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/belleza-v17-latin-regular.woff2") format("woff2");
+}
+/* allura-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Allura";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/allura-v21-latin-regular.woff2") format("woff2");
+}
+
+:root {
+  --light: #feffff;
+  --medium: #209cb4;
+  --dark: #017d97;
+  --very-dark: #054b6b;
+  --orange: #ff914d;
+  --peach: #ffbd59;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -17,4 +43,10 @@ select {
 img {
   display: block;
   max-width: 100%;
+}
+h1 {
+  font-family: "Allura";
+}
+h2 {
+  font-family: "Belleza";
 }

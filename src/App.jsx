@@ -11,7 +11,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />}></Route>
           <Route path="gallery" element={<Gallery />}></Route>
-          <Route path="logbook" element={<LogBook />}></Route>
+          <Route path="logbook" element={<LogBook />}>
+            <Route index element={<p>List of cities</p>} />
+            <Route path="cities" element={<p>List of cities</p>} />
+            <Route path="countries" element={<p>List of countries</p>} />
+          </Route>
           <Route path="*" element={<PageNotFound />}></Route>
         </Routes>
       </BrowserRouter>
