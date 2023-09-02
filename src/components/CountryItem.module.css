@@ -1,0 +1,12 @@
+.countryItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: var(--medium);
+  border-radius: 7px;
+  padding: 1rem 1.5rem;
+  color: var(--very-dark);
+  margin: 0.5rem;
+}

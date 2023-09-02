@@ -1,3 +1,26 @@
 .pageNav a:global(.active) {
-  color: green;
+  color: var(--orange);
+}
+.pageNav {
+  display: flex;
+  justify-content: space-between;
+  height: 6rem;
+}
+.pageNav ul {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+  gap: 1.5rem;
+}
+.pageNav li {
+  list-style: none;
+  text-transform: uppercase;
+}
+.pageNav a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: var(--dark);
+}
+.pageNav a:hover {
+  color: var(--orange);
 }

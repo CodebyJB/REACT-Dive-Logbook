@@ -1,10 +1,10 @@
 import Sidebar from "../components/Sidebar";
 import Map from "../components/Map";
+import styles from "./LogBook.module.css";
 
 function LogBook() {
   return (
-    <div>
-      Logbook
+    <div className={styles.logBook}>
       <Sidebar />
       <Map />
     </div>

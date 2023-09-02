@@ -5,7 +5,6 @@ import Logo from "./Logo";
 function PageNav() {
   return (
     <div className={styles.pageNav}>
-      PageNav
       <Logo />
       <ul>
         <li>

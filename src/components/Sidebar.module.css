@@ -1,0 +1,14 @@
+.sidebar {
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+  border: 1px solid var(--dark);
+  height: 93vh;
+  border-radius: 7px;
+}
+.sidebar .footer {
+  padding: 0.5rem;
+  margin-top: auto;
+}
