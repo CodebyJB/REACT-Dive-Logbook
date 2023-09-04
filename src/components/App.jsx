@@ -1,11 +1,13 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Homepage from "./pages/Homepage";
-import Gallery from "./pages/Gallery";
-import LogBook from "./pages/LogBook";
-import PageNotFound from "./pages/PageNotFound";
-import CityList from "./components/CityList";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import Homepage from "../pages/Homepage";
+import Gallery from "../pages/Gallery";
+import LogBook from "../pages/LogBook";
+import PageNotFound from "../pages/PageNotFound";
+import CityList from "./CityList";
 import { useState } from "react";
-import CountryList from "./components/CountryList";
+import CountryList from "./CountryList";
+import City from "./City";
+import Form from "./Form";
 
 const initialArr = [
   {
@@ -57,18 +59,17 @@ function App() {
           <Route path="/" element={<Homepage />}></Route>
           <Route path="gallery" element={<Gallery />}></Route>
           <Route path="logbook" element={<LogBook />}>
-            <Route
-              index
-              element={<CityList cities={cities} isLoading={isLoading} />}
-            />
+            <Route index element={<Navigate replace to="cities" />} />
             <Route
               path="cities"
               element={<CityList cities={cities} isLoading={isLoading} />}
             />
+            <Route path="cities/:id" element={<City />} />
             <Route
               path="countries"
               element={<CountryList cities={cities} isLoading={isLoading} />}
             />
+            <Route path="form" element={<Form />} />
           </Route>
           <Route path="*" element={<PageNotFound />}></Route>
         </Routes>

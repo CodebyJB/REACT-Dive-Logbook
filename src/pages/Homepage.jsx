@@ -1,8 +1,11 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import PageNav from "../components/PageNav";
 import styles from "./Homepage.module.css";
+import Button from "../components/Button";
 
 function Homepage() {
+  const navigate = useNavigate();
+
   return (
     <div className={styles.homepage}>
       <PageNav />
@@ -21,9 +24,12 @@ function Homepage() {
           Never lose the memories of your incredible dives and share your
           underwater adventures with your fellow divers.
         </h2>
-        <Link to="/logbook" className="cta">
+        {/* <Link to="/logbook" className="cta">
           Start tracking now
-        </Link>
+        </Link> */}
+        <Button type="cta" onClick={() => navigate("logbook")}>
+          Log your Dive
+        </Button>
       </div>
     </div>
   );

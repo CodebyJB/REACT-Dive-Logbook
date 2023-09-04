@@ -1,7 +1,10 @@
 import CountryItem from "./CountryItem";
+import Spinner from "./Spinner";
 import styles from "./CountryList.module.css";
 
 function CountryList({ cities, isLoading }) {
+  if (isLoading) return <Spinner />;
+
   const countries = cities.reduce((arr, city) => {
     if (!arr.map((el) => el.country).includes(city.country))
       return [...arr, { country: city.country, emoji: city.emoji }];
