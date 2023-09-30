@@ -1,3 +1,6 @@
+/* leaflet map */
+@import url("https://unpkg.com/leaflet@1.9.4/dist/leaflet.css");
+
 /* belleza-regular - latin */
 @font-face {
   font-display: swap;
@@ -45,4 +48,3 @@ img {
   display: block;
   max-width: 100%;
 }
-

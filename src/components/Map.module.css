@@ -1,5 +1,9 @@
-.map {
-  flex-basis: 60%;
+.mapContainer {
+  height: 97.5vh;
   margin: 1rem 0;
-  height: 93vh;
+  flex-basis: 60%;
+  position: relative;
+}
+.map {
+  height: 100%;
 }

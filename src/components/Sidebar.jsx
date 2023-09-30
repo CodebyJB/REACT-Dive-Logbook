@@ -10,8 +10,7 @@ function Sidebar() {
       <Logo />
       <LogNav />
       <Outlet />
-      <div className={styles.footer}>
-      <Footer /></div>
+      <Footer />
     </div>
   );
 }
