@@ -1,13 +1,35 @@
 [
-    {"img": "../../public/img/chase-baker-RTtUA2iBwRw-unsplash.jpg", "title": "wasser jflakfjasio"},
-    {"img": "../../public/img/bobbi-wu-3_h9trxhQmY-unsplash.jpg", "title": "2"},
-    {"img": "../../public/img/artem-militonian-UYW6FZLlnL8-unsplash.jpg", "title": "3"},
-    {"img": "../../public/img/ali-abdul-rahman-Xva-TYqwHhA-unsplash.jpg", "title": "4"},
-    {"img": "../../public/img/angus-gray-qEaELLSYZW0-unsplash.jpg", "title": "5"},
-    {"img": "../../public/img/chase-baker-RTtUA2iBwRw-unsplash.jpg", "title": "1"},
-    {"img": "../../public/img/bobbi-wu-3_h9trxhQmY-unsplash.jpg", "title": "2"},
-    {"img": "../../public/img/artem-militonian-UYW6FZLlnL8-unsplash.jpg", "title": "3"},
-    {"img": "../../public/img/ali-abdul-rahman-Xva-TYqwHhA-unsplash.jpg", "title": "4"},
-    {"img": "../../public/img/angus-gray-qEaELLSYZW0-unsplash.jpg", "title": "5"}
-  ]
-  
+  {
+    "img": "../../public/img/Daedalus,Egypt.jpg",
+    "title": "Daedalus, Egypt"
+  },
+  {
+    "img": "../../public/img/RedSea,Egypt.jpg",
+    "title": "Red Sea Reef, Egypt"
+  },
+  { "img": "../../public/img/RedSea,Egypt2.jpg", "title": "Red Sea, Egypt" },
+  {
+    "img": "../../public/img/KoLipe,Thailand.jpg",
+    "title": "Ko Lipe, Thailand"
+  },
+  {
+    "img": "../../public/img/Cozumel,Mexico.jpg",
+    "title": "Cozumel, Mexico"
+  },
+  {
+    "img": "../../public/img/Reef,Japan.jpg",
+    "title": "Reef, Japan"
+  },
+  {
+    "img": "../../public/img/GreatBarrierReef,Australia.jpg",
+    "title": "Great Barrier Reef, Australia"
+  },
+  {
+    "img": "../../public/img/MarsaAlam,Egypt.jpg",
+    "title": "Marsa Alam, Egypt"
+  },
+  {
+    "img": "../../public/img/CozumelReef,Mexico.jpg",
+    "title": "Cozumel Reef, Mexico"
+  }
+]

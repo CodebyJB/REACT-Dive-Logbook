@@ -1,14 +1,15 @@
-import GalleryImg from "./GalleryImg"
-import images from "../../data/images.json"
-import styles from './GalleryList.module.css'
+import GalleryImg from "./GalleryImg";
+import images from "../../data/images.json";
+import styles from "./GalleryList.module.css";
 
 function GalleryList() {
-    return (
-  <ul id={styles.hexGrid}>
-    {images.map(image=> (<GalleryImg image={image} key={image.title} />))}
+  return (
+    <ul className={styles.galleryList}>
+      {images.map((image) => (
+        <GalleryImg image={image} key={image.title} />
+      ))}
     </ul>
-   
-    )
+  );
 }
 
-export default GalleryList
+export default GalleryList;

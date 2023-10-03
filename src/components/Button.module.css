@@ -37,39 +37,39 @@
   font-weight: 700;
   position: absolute;
   z-index: 1000;
-  font-size: 1.4rem;
+  font-size: 1rem;
   bottom: 4rem;
   left: 50%;
   transform: translateX(-50%);
-  background-color: var(--light);
-  color: var(--medium);
+  background-color: var(--orange);
+  color: var(--light);
   box-shadow: 0 0.4rem 1.2rem rgba(36, 42, 46, 0.16);
+  text-align: center;
 }
 .cta {
   max-width: 300px;
-  background-color: var(--light);
-  color: var(--orange);
+  background-color: var(--orange);
+  color: var(--light);
   font-weight: 600;
   margin: 0 auto;
 }
-.cta:hover {
-  background-color: var(--orange);
-  color: var(--light);
+.cta:hover,
+.position:hover {
+  background-color: var(--light);
+  color: var(--orange);
 }
 .delete {
-  height: 1.5rem;
-  border-radius: 100%;
   aspect-ratio: 1;
-  background-color: var(--dark);
-  font-size: 1rem;
+  border-radius: 50%;
+  /* background-color: var(--dark); */
+  font-size: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 400;
   color: var(--very-dark);
 }
 
 .delete:hover {
-  background-color: var(--light);
+  /* background-color: var(--light); */
   color: var(--orange);
 }

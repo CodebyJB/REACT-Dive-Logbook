@@ -1,11 +1,8 @@
-#hexGrid {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    /* height:100%; */
-    margin: 0 auto;
-    /* overflow: hidden; */
-    /* overflow-x: scroll; */
-    font-family: sans-serif;
-    list-style-type: none;
-  }
+.galleryList {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 900px;
+  margin: 4rem auto 0;
+}

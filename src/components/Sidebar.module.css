@@ -8,3 +8,10 @@
   height: 97.5vh;
   border-radius: 7px;
 }
+
+@media screen and (max-width: 550px) {
+  .sidebar {
+    flex-basis: 100%; 
+    margin: 1rem 0;
+  }
+}
