@@ -6,6 +6,7 @@
 }
 .map {
   height: 100%;
+  border-radius: 0 5px 5px 0;
 }
 @media screen and (max-width: 550px) {
   .mapContainer {
@@ -16,5 +17,6 @@
   .map {
     min-width: 350px;
     min-height: 600px;
+    border-radius: 0 0 5px 5px;
   }
 }

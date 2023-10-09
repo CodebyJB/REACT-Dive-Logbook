@@ -28,8 +28,8 @@
 .flag {
   position: absolute;
   right: 1rem;
-  top: 2.7rem;
-  font-size: 2.8rem;
+  top: 45%;
+  font-size: 2rem;
 }
 
 .form.loading {
@@ -46,4 +46,8 @@
 :global(.react-datepicker) {
   font-family: inherit;
   font-size: 1.2rem;
+}
+.form input,
+.form textarea {
+  border-radius: 5px;
 }

@@ -1,52 +1,88 @@
 {
-    "cities": [
-      {
-        "cityName": "Lisbon",
-        "country": "Portugal",
-        "emoji": "🇵🇹",
-        "date": "2027-10-31T15:59:59.138Z",
-        "notes": "My favorite city so far!",
-        "position": {
-          "lat": 38.727881642324164,
-          "lng": -9.140900099907554
-        },
-        "id": 73930385
+  "cities": [
+    {
+      "cityName": "Cholet",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2023-10-06T09:15:33.119Z",
+      "notes": "",
+      "position": {
+        "lat": "47.0550935512409",
+        "lng": "-0.9337402238448967"
       },
-      {
-        "cityName": "Madrid",
-        "country": "Spain",
-        "emoji": "🇪🇸",
-        "date": "2027-07-15T08:22:53.976Z",
-        "notes": "",
-        "position": {
-          "lat": 40.46635901755316,
-          "lng": -3.7133789062500004
-        },
-        "id": 17806751
+      "id": 98443200
+    },
+    {
+      "cityName": "Pintano",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-10-06T09:19:00.526Z",
+      "notes": "",
+      "position": {
+        "lat": "42.50452964996543",
+        "lng": "-0.9777460844834996"
       },
-      {
-        "cityName": "Berlin",
-        "country": "Germany",
-        "emoji": "🇩🇪",
-        "date": "2027-02-12T09:24:11.863Z",
-        "notes": "Amazing 😃",
-        "position": {
-          "lat": 52.53586782505711,
-          "lng": 13.376933665713324
-        },
-        "id": 98443197
+      "id": 98443201
+    },
+    {
+      "cityName": "Munilla",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-10-06T09:20:04.302Z",
+      "notes": "",
+      "position": {
+        "lat": "42.21229900666766",
+        "lng": "-2.3398875552620217"
       },
-      {
-        "cityName": "Nijar",
-        "country": "Spain",
-        "emoji": "🇪🇸",
-        "date": "2023-04-03T07:47:59.202Z",
-        "notes": "",
-        "position": {
-          "lat": "36.967508314568164",
-          "lng": "-2.13128394200588"
-        },
-        "id": 98443198
-      }
-    ]
-  }
+      "id": 98443203
+    },
+    {
+      "cityName": "Masseilles",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2023-10-06T09:20:33.808Z",
+      "notes": "",
+      "position": {
+        "lat": "44.40224611433645",
+        "lng": "-0.05500508814966222"
+      },
+      "id": 98443204
+    },
+    {
+      "cityName": "Adyk",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2023-10-06T11:10:44.507Z",
+      "notes": "",
+      "position": {
+        "lat": "45.643887791789936",
+        "lng": "45.74707031250001"
+      },
+      "id": 98443205
+    },
+    {
+      "cityName": "Henarejos",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-10-06T11:11:27.678Z",
+      "notes": "",
+      "position": {
+        "lat": "39.89381699127873",
+        "lng": "-1.4642103868085734"
+      },
+      "id": 98443206
+    },
+    {
+      "cityName": "Nikolayevskaya",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2023-10-06T11:12:03.164Z",
+      "notes": "",
+      "position": {
+        "lat": "44.86977352457761",
+        "lng": "41.55029296875001"
+      },
+      "id": 98443207
+    }
+  ]
+}

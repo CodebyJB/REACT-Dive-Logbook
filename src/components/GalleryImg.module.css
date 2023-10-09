@@ -24,9 +24,6 @@
 .hexagon:nth-child(9) {
   transform: translateY(-150px);
 }
-.hexagon img:hover {
-  filter: blur(50px);
-}
 .hexagon p {
   font-size: 2rem;
   display: none;
@@ -35,6 +32,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+.hexagon img:hover,
+.hexagon p:hover {
+  filter: blur(50px);
 }
 .hexagon:hover p {
   display: block;
