@@ -4,32 +4,32 @@
     "title": "Daedalus, Egypt"
   },
   {
-    "img": "../public/img/RedSea,Egypt.jpg",
+    "img": "../img/RedSea,Egypt.jpg",
     "title": "Red Sea Reef, Egypt"
   },
-  { "img": "../public/img/RedSea,Egypt2.jpg", "title": "Red Sea, Egypt" },
+  { "img": "../img/RedSea,Egypt2.jpg", "title": "Red Sea, Egypt" },
   {
-    "img": "../public/img/KoLipe,Thailand.jpg",
+    "img": "../img/KoLipe,Thailand.jpg",
     "title": "Ko Lipe, Thailand"
   },
   {
-    "img": "../public/img/Cozumel,Mexico.jpg",
+    "img": "../img/Cozumel,Mexico.jpg",
     "title": "Cozumel, Mexico"
   },
   {
-    "img": "../public/img/Reef,Japan.jpg",
+    "img": "../img/Reef,Japan.jpg",
     "title": "Reef, Japan"
   },
   {
-    "img": "../public/img/GreatBarrierReef,Australia.jpg",
+    "img": "../img/GreatBarrierReef,Australia.jpg",
     "title": "Great Barrier Reef, Australia"
   },
   {
-    "img": "../public/img/MarsaAlam,Egypt.jpg",
+    "img": "../img/MarsaAlam,Egypt.jpg",
     "title": "Marsa Alam, Egypt"
   },
   {
-    "img": "../public/img/CozumelReef,Mexico.jpg",
+    "img": "../img/CozumelReef,Mexico.jpg",
     "title": "Cozumel Reef, Mexico"
   }
 ]
