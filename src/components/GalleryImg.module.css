@@ -5,24 +5,15 @@
   height: 300px;
   width: 300px;
   position: relative;
+  margin: 0 auto;
 }
 .hexagon img {
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
   object-fit: cover;
   overflow: hidden;
-  height: 300px;
-  width: 300px;
+  height: 100%;
+  width: 100%;
   cursor: pointer;
-}
-.hexagon:nth-child(4),
-.hexagon:nth-child(5),
-.hexagon:nth-child(6) {
-  transform: translate(155px, -75px);
-}
-.hexagon:nth-child(7),
-.hexagon:nth-child(8),
-.hexagon:nth-child(9) {
-  transform: translateY(-150px);
 }
 .hexagon p {
   font-size: 2rem;
@@ -39,4 +30,17 @@
 }
 .hexagon:hover p {
   display: block;
+}
+
+@media (min-width: 981px) {
+  .hexagon:nth-child(4),
+  .hexagon:nth-child(5),
+  .hexagon:nth-child(6) {
+    transform: translate(155px, -75px);
+  }
+  .hexagon:nth-child(7),
+  .hexagon:nth-child(8),
+  .hexagon:nth-child(9) {
+    transform: translateY(-150px);
+  }
 }

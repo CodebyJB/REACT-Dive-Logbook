@@ -4,7 +4,7 @@
 .pageNav {
   display: flex;
   justify-content: space-between;
-  height: 6rem;
+  max-height: 6rem;
 }
 .pageNav ul {
   display: flex;
@@ -19,16 +19,20 @@
 }
 .pageNav a {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--dark);
 }
 .pageNav a:hover {
   color: var(--orange);
 }
 
-@media screen and (max-width: 750px) {
-  .pageNav {
-    height: 4rem;
-    min-width: 900px;
+@media screen and (max-width: 550px) {
+  .pageNav ul {
+    flex-direction: column;
+    margin: 1rem;
+    gap: 0.5rem;
+  }
+  .pageNav a {
+    font-size: 1rem;
   }
 }

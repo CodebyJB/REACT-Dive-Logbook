@@ -3,6 +3,20 @@
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  max-width: 900px;
+  max-width: 920px;
   margin: 4rem auto 0;
+}
+@media (max-width: 630px) {
+  .galleryList {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 631px) and (max-width: 980px) {
+  .galleryList {
+    max-width: 610px;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

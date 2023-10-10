@@ -1,7 +1,7 @@
 .mapContainer {
   height: 97.5vh;
   margin: 1rem 0;
-  flex-basis: 60%;
+  flex-basis: 65%;
   position: relative;
 }
 .map {

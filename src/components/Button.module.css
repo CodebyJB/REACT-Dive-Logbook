@@ -8,7 +8,6 @@
   border-radius: 5px;
   cursor: pointer;
 }
-
 .primary {
   font-weight: 700;
   background-color: var(--light);
@@ -20,7 +19,6 @@
   background-color: var(--orange);
   color: var(--light);
 }
-
 .back {
   font-weight: 600;
   background-color: var(--light);
@@ -32,7 +30,6 @@
   color: var(--light);
   border: 1px solid var(--light);
 }
-
 .position {
   font-weight: 700;
   position: absolute;
@@ -58,18 +55,12 @@
   background-color: var(--light);
   color: var(--orange);
 }
-.delete {
-  aspect-ratio: 1;
-  border-radius: 50%;
-  /* background-color: var(--dark); */
-  font-size: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--very-dark);
-}
 
-.delete:hover {
-  /* background-color: var(--light); */
-  color: var(--orange);
+@media (max-width: 750px) {
+  .btn {
+    font-size: 1rem;
+  }
+  .cta {
+    max-width: 200px;
+  }
 }

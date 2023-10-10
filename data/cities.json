@@ -1,30 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Cholet",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2023-10-06T09:15:33.119Z",
-      "notes": "",
-      "position": {
-        "lat": "47.0550935512409",
-        "lng": "-0.9337402238448967"
-      },
-      "id": 98443200
-    },
-    {
-      "cityName": "Pintano",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-10-06T09:19:00.526Z",
-      "notes": "",
-      "position": {
-        "lat": "42.50452964996543",
-        "lng": "-0.9777460844834996"
-      },
-      "id": 98443201
-    },
-    {
       "cityName": "Munilla",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -49,30 +25,6 @@
       "id": 98443204
     },
     {
-      "cityName": "Adyk",
-      "country": "Russian Federation (the)",
-      "emoji": "🇷🇺",
-      "date": "2023-10-06T11:10:44.507Z",
-      "notes": "",
-      "position": {
-        "lat": "45.643887791789936",
-        "lng": "45.74707031250001"
-      },
-      "id": 98443205
-    },
-    {
-      "cityName": "Henarejos",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-10-06T11:11:27.678Z",
-      "notes": "",
-      "position": {
-        "lat": "39.89381699127873",
-        "lng": "-1.4642103868085734"
-      },
-      "id": 98443206
-    },
-    {
       "cityName": "Nikolayevskaya",
       "country": "Russian Federation (the)",
       "emoji": "🇷🇺",
@@ -83,6 +35,42 @@
         "lng": "41.55029296875001"
       },
       "id": 98443207
+    },
+    {
+      "cityName": "Beteta",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-10-10T05:33:47.682Z",
+      "notes": "",
+      "position": {
+        "lat": "40.54910102580028",
+        "lng": "-1.9110373791872353"
+      },
+      "id": 98443208
+    },
+    {
+      "cityName": "Torres Novas",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2023-10-10T06:03:53.818Z",
+      "notes": "",
+      "position": {
+        "lat": "39.48537226687445",
+        "lng": "-8.611187973878181"
+      },
+      "id": 98443209
+    },
+    {
+      "cityName": "Iguena",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2023-10-10T06:04:05.465Z",
+      "notes": "fqiopguqw9",
+      "position": {
+        "lat": "42.730374247136695",
+        "lng": "-6.2174376864890535"
+      },
+      "id": 98443210
     }
   ]
 }

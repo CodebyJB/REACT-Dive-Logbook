@@ -1,7 +1,9 @@
 .logBook {
   display: flex;
   margin: 0 1rem;
+  height: 95vh;
 }
+
 @media screen and (max-width: 550px) {
   .logBook {
     flex-direction: column;

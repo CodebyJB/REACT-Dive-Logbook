@@ -24,7 +24,6 @@
   --dark: #017d97;
   --very-dark: #054b6b;
   --orange: #ff914d;
-  --peach: #ffbd59;
 }
 
 * {
@@ -36,7 +35,8 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  font-family: "Belleza";
+  font-family: "Belleza", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
 }
 input,
 button,

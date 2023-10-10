@@ -1,16 +1,16 @@
 import { useEffect, useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-
-import Button from "./Button";
-
-import styles from "./Form.module.css";
 import { useUrlPosition } from "../hooks/useUrlPosition";
-import Message from "./Message";
-import Spinner from "./Spinner";
 import { useCities } from "../contexts/CitiesContext";
 import { useNavigate } from "react-router-dom";
 import countryCodeEmoji from "country-code-emoji";
+
+import Button from "./Button";
+import Message from "./Message";
+import Spinner from "./Spinner";
+
+import styles from "./Form.module.css";
 
 const BASE_URL = "https://api.bigdatacloud.net/data/reverse-geocode-client";
 
@@ -90,7 +90,7 @@ function Form() {
       onSubmit={handleSubmit}
     >
       <div className={styles.row}>
-        <label htmlFor="cityName">City name</label>
+        <label htmlFor="cityName">City name / Dive site</label>
         <input
           id="cityName"
           onChange={(e) => setCityName(e.target.value)}

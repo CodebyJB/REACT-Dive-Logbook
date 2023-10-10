@@ -1,4 +1,5 @@
 import PageNav from "../components/PageNav";
+
 import styles from './PageNotFound.module.css'
 
 function PageNotFound() {
