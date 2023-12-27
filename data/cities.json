@@ -1,88 +1,64 @@
 {
   "cities": [
     {
-      "cityName": "Munilla",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-10-06T09:20:04.302Z",
-      "notes": "",
+      "cityName": "Solidaridad",
+      "country": "Mexico",
+      "emoji": "🇲🇽",
+      "date": "2022-12-20T09:01:31.000Z",
+      "notes": "Amazing Dive at Bullshark Point 🐬",
       "position": {
-        "lat": "42.21229900666766",
-        "lng": "-2.3398875552620217"
+        "lat": "20.624517881790467",
+        "lng": "-87.06721424325913"
       },
-      "id": 98443203
+      "id": 1
     },
     {
-      "cityName": "Masseilles",
-      "country": "France",
-      "emoji": "🇫🇷",
-      "date": "2023-10-06T09:20:33.808Z",
-      "notes": "",
+      "cityName": "Cozumel",
+      "country": "Mexico",
+      "emoji": "🇲🇽",
+      "date": "2022-10-24T08:03:54.000Z",
+      "notes": "Best place to see Starfish 🪸 at El Cielo",
       "position": {
-        "lat": "44.40224611433645",
-        "lng": "-0.05500508814966222"
+        "lat": "20.448000768231694",
+        "lng": "-86.9968244415994"
       },
-      "id": 98443204
+      "id": 2
     },
     {
-      "cityName": "Nikolayevskaya",
-      "country": "Russian Federation (the)",
-      "emoji": "🇷🇺",
-      "date": "2023-10-06T11:12:03.164Z",
-      "notes": "",
+      "cityName": "Solidaridad",
+      "country": "Mexico",
+      "emoji": "🇲🇽",
+      "date": "2022-11-13T09:05:21.000Z",
+      "notes": "Visit at the Mama Vina Wreck ⛵",
       "position": {
-        "lat": "44.86977352457761",
-        "lng": "41.55029296875001"
+        "lat": "20.599293647122863",
+        "lng": "-87.09200360023837"
       },
-      "id": 98443207
+      "id": 3
     },
     {
-      "cityName": "Beteta",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-10-10T05:33:47.682Z",
-      "notes": "",
+      "cityName": "Red Sea Governorate",
+      "country": "Egypt",
+      "emoji": "🇪🇬",
+      "date": "2020-07-24T08:07:41.000Z",
+      "notes": "Colorful reef and lots of marine life 🐡",
       "position": {
-        "lat": "40.54910102580028",
-        "lng": "-1.9110373791872353"
+        "lat": "25.045560198635787",
+        "lng": "34.96455989121092"
       },
-      "id": 98443208
+      "id": 4
     },
     {
-      "cityName": "Torres Novas",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2023-10-10T06:03:53.818Z",
-      "notes": "",
+      "cityName": "Obersee",
+      "country": "Switzerland",
+      "emoji": "🇨🇭",
+      "date": "2023-10-24T08:10:48.000Z",
+      "notes": "Nope, too cold for me ... 🥶",
       "position": {
-        "lat": "39.48537226687445",
-        "lng": "-8.611187973878181"
+        "lat": "47.64494369894032",
+        "lng": "9.257658550788316"
       },
-      "id": 98443209
-    },
-    {
-      "cityName": "Alboran Sea",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2023-12-24T08:14:40.956Z",
-      "notes": "",
-      "position": {
-        "lat": "36.40211234298179",
-        "lng": "-4.610646546669788"
-      },
-      "id": 98443210
-    },
-    {
-      "cityName": "Europe/Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2023-12-24T08:15:31.935Z",
-      "notes": "",
-      "position": {
-        "lat": "38.20274722576718",
-        "lng": "-9.092252176653371"
-      },
-      "id": 98443211
+      "id": 5
     }
   ]
 }
