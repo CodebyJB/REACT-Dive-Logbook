@@ -1,2 +1,5 @@
-[build]
-  functions = "netlify/functions"
+[[redirects]]
+  from = "/cities"
+  to = "http://localhost:9000/cities"
+  status = 200
+  force = true
