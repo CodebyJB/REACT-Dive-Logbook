@@ -12,6 +12,7 @@
   "proxy": "http://localhost:9000",
   "type": "commonjs",
   "dependencies": {
+    "cors": "^2.8.5",
     "country-code-emoji": "^2.3.0",
     "json-server": "^0.17.3",
     "leaflet": "^1.9.4",
